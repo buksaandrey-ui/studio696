@@ -1,0 +1,17 @@
+<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .text-main { font-family: 'Inter', sans-serif; font-weight: 300; fill: #121212; }
+        .text-accent { fill: #FF4500; }
+        .text-studio { font-family: 'Inter', sans-serif; font-weight: 400; letter-spacing: 0.3em; fill: #121212; font-size: 24px; }
+    </style>
+    
+    <!-- 696 -->
+    <text x="75" y="80" text-anchor="middle" font-size="80" class="text-main">
+        <tspan class="text-accent">6</tspan>96
+    </text>
+    
+    <!-- STUDIO -->
+    <text x="75" y="115" text-anchor="middle" class="text-studio">
+        STUDI<tspan class="text-accent">O</tspan>
+    </text>
+</svg>
