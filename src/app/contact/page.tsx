@@ -83,10 +83,10 @@ export default function ContactPage() {
                             <div className="bg-light-gray rounded-3xl p-8 md:sticky md:top-24 shadow-sm border border-gray-100/50">
                                 <h3 className="text-2xl font-bold mb-6">Оформить заказ</h3>
                                 <div className="flex flex-col gap-4">
-                                    <Button variant="primary" size="lg" href="https://t.me/oksivit03" target="_blank" className="w-full text-lg">
+                                    <Button variant="primary" size="lg" href="https://t.me/studio696_thermos" target="_blank" className="w-full text-lg">
                                         Написать в Telegram
                                     </Button>
-                                    <Button variant="outline" size="lg" href="https://wa.me/79067365392" target="_blank" className="w-full mb-4 text-lg bg-white">
+                                    <Button variant="outline" size="lg" href="https://wa.me/79013658929" target="_blank" className="w-full mb-4 text-lg bg-white">
                                         WhatsApp (+7 906...)
                                     </Button>
                                 </div>

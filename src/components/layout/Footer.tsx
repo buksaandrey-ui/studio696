@@ -42,12 +42,12 @@ export default function Footer() {
                         <h4 className="font-semibold mb-4">Связаться</h4>
                         <ul className="flex flex-col gap-3 text-text-secondary">
                             <li>
-                                <a href="https://t.me/oksivit03" target="_blank" rel="noopener noreferrer" className="hover:text-text-primary transition-colors">
+                                <a href="https://t.me/studio696_thermos" target="_blank" rel="noopener noreferrer" className="hover:text-text-primary transition-colors">
                                     Telegram
                                 </a>
                             </li>
                             <li>
-                                <a href="https://wa.me/79067365392" target="_blank" rel="noopener noreferrer" className="hover:text-text-primary transition-colors">
+                                <a href="https://wa.me/79013658929" target="_blank" rel="noopener noreferrer" className="hover:text-text-primary transition-colors">
                                     WhatsApp
                                 </a>
                             </li>

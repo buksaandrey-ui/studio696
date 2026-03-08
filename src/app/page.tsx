@@ -51,10 +51,10 @@ export default function Home() {
         </Reveal>
         <Reveal delay={200} className="relative z-30">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 transform -translate-y-[110px] md:translate-y-0">
-            <Button variant="primary" size="lg" href="https://t.me/oksivit03" target="_blank">
+            <Button variant="primary" size="lg" href="https://t.me/studio696_thermos" target="_blank">
               Заказать в Telegram
             </Button>
-            <Button variant="secondary" size="lg" href="https://wa.me/79067365392" target="_blank">
+            <Button variant="secondary" size="lg" href="https://wa.me/79013658929" target="_blank">
               Написать в WhatsApp
             </Button>
           </div>

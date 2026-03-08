@@ -45,7 +45,7 @@ export default function Header() {
 
                     {/* Desktop CTA */}
                     <div className="hidden md:flex items-center gap-4">
-                        <Button variant="primary-red" size="sm" href="https://t.me/oksivit03" target="_blank">
+                        <Button variant="primary-red" size="sm" href="https://t.me/studio696_thermos" target="_blank">
                             Заказать в Telegram
                         </Button>
                     </div>
@@ -108,10 +108,10 @@ export default function Header() {
                         Контакты
                     </Link>
                     <div className="pt-2 flex flex-col gap-2">
-                        <Button variant="primary-red" size="md" href="https://t.me/oksivit03" className="w-full">
+                        <Button variant="primary-red" size="md" href="https://t.me/studio696_thermos" className="w-full">
                             Заказать в Telegram
                         </Button>
-                        <Button variant="secondary" size="md" href="https://wa.me/79067365392" className="w-full">
+                        <Button variant="secondary" size="md" href="https://wa.me/79013658929" className="w-full">
                             WhatsApp
                         </Button>
                     </div>

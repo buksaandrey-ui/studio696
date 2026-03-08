@@ -56,7 +56,7 @@ export default function PrintsPage() {
                             Принимаем JPEG и PNG в высоком качестве. Наш дизайнер бесплатно поможет с подготовкой макета перед печатью, чтобы результат был идеальным.
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                            <Button variant="primary" href="https://t.me/oksivit03" target="_blank" className="w-full sm:w-auto">Отправить макет в Telegram</Button>
+                            <Button variant="primary" href="https://t.me/studio696_thermos" target="_blank" className="w-full sm:w-auto">Отправить макет в Telegram</Button>
                         </div>
                     </div>
                 </Reveal>

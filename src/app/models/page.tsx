@@ -33,7 +33,7 @@ export default function ModelsPage() {
                                     Максимум объема. Выбор путешественников и тех, кто весь день на ногах. Двойные стенки из стали сохраняют температуру до 12 часов.
                                 </p>
                                 <div className="flex flex-wrap gap-4 w-full sm:w-auto">
-                                    <Button variant="primary" href="https://t.me/oksivit03" target="_blank" className="w-full sm:w-auto">Заказать в Telegram</Button>
+                                    <Button variant="primary" href="https://t.me/studio696_thermos" target="_blank" className="w-full sm:w-auto">Заказать в Telegram</Button>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ export default function ModelsPage() {
                                     Золотая середина. Идеально ложится в руку, легко помещается в рюкзак или сумку. Оптимальный объем на каждый день.
                                 </p>
                                 <div className="flex flex-wrap gap-4 w-full sm:w-auto">
-                                    <Button variant="primary" href="https://t.me/oksivit03" target="_blank" className="w-full sm:w-auto">Заказать в Telegram</Button>
+                                    <Button variant="primary" href="https://t.me/studio696_thermos" target="_blank" className="w-full sm:w-auto">Заказать в Telegram</Button>
                                 </div>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ export default function ModelsPage() {
                                     Для рабочего стола и уютных вечеров. Стильная крышка защитит напиток от остывания и случайного проливания.
                                 </p>
                                 <div className="flex flex-wrap gap-4 w-full sm:w-auto">
-                                    <Button variant="primary" href="https://t.me/oksivit03" target="_blank" className="w-full sm:w-auto">Заказать в Telegram</Button>
+                                    <Button variant="primary" href="https://t.me/studio696_thermos" target="_blank" className="w-full sm:w-auto">Заказать в Telegram</Button>
                                 </div>
                             </div>
                         </div>
