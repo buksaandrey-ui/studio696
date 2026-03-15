@@ -25,10 +25,17 @@ export default function Home() {
             priority
           />
         </div>
-        <Reveal className="relative z-30">
-          <div className="relative inline-block mx-auto max-w-4xl text-left mb-6 md:mb-8 z-30">
-            <h1 className="text-6xl md:text-7xl lg:text-8xl font-normal tracking-normal text-text-primary font-[family-name:var(--font-script)] leading-[1.1] whitespace-pre-wrap relative z-10">
+        <Reveal className="relative z-30 w-full">
+          <div className="relative w-[100vw] ml-[calc(-50vw+50%)] px-4 min-w-[390px] md:inline-block md:w-auto md:min-w-0 md:ml-0 md:px-0 mx-auto max-w-4xl text-left mb-6 md:mb-8 z-30">
+            {/* Desktop Hero Title */}
+            <h1 className="hidden md:block text-6xl md:text-7xl lg:text-8xl font-normal tracking-normal text-text-primary font-[family-name:var(--font-script)] leading-[1.1] whitespace-pre-wrap relative z-10">
               {"По"}<span className="text-[#FF4500]">да</span>{"рки      \n        с  эмоциями"}<span className="text-[#FF4500]">!</span>
+            </h1>
+
+            {/* Mobile Hero Title */}
+            <h1 className="md:hidden flex flex-col w-full text-6xl font-normal tracking-normal text-text-primary font-[family-name:var(--font-script)] leading-[1.1] relative z-10">
+              <span className="line-left">{"По"}<span className="text-[#FF4500]">да</span>{"рки"}</span>
+              <span className="line-right">{"с эмоциями"}<span className="text-[#FF4500]">!</span></span>
             </h1>
           </div>
         </Reveal>

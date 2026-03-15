@@ -38,3 +38,9 @@ body {
   scrollbar-width: none;
   /* Firefox */
 }
+
+/* Hero Custom Mobile Classes */
+@media (max-width: 767px) {
+  .line-left { text-align: left; }
+  .line-right { text-align: right; }
+}
