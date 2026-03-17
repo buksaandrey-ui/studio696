@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
 
@@ -24,13 +25,13 @@ export default function ModelsPage() {
                     {/* SKU 1 */}
                     <Reveal>
                         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
-                            <div className="w-full md:w-1/2 aspect-square bg-light-gray rounded-3xl relative flex items-center justify-center p-8">
-                                <p className="text-text-secondary/50 font-medium z-10 text-center">product-600.webp</p>
+                            <div className="w-full md:w-1/2 aspect-square bg-light-gray rounded-3xl relative overflow-hidden flex items-center justify-center p-6">
+                                <Image src="/images/Thermos600.jpg" alt="Термос 600 мл" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain object-center mix-blend-multiply p-6" />
                             </div>
                             <div className="w-full md:w-1/2 flex flex-col items-start text-left">
                                 <h2 className="text-3xl md:text-4xl font-bold mb-4">Термос 600 мл</h2>
                                 <p className="text-lg text-text-secondary mb-8 leading-relaxed">
-                                    Максимум объема. Выбор путешественников и тех, кто весь день на ногах. Двойные стенки из стали сохраняют температуру до 12 часов.
+                                    Оптимальный размер для прогулок и путешествий.
                                 </p>
                                 <div className="flex flex-wrap gap-4 w-full sm:w-auto">
                                     <Button variant="primary" href="https://t.me/studio696_thermos" target="_blank" className="w-full sm:w-auto">Заказать в Telegram</Button>
@@ -42,13 +43,13 @@ export default function ModelsPage() {
                     {/* SKU 2 */}
                     <Reveal delay={100}>
                         <div className="flex flex-col md:flex-row-reverse items-center gap-10 md:gap-16">
-                            <div className="w-full md:w-1/2 aspect-square bg-light-gray rounded-3xl relative flex items-center justify-center p-8">
-                                <p className="text-text-secondary/50 font-medium z-10 text-center">product-380.webp</p>
+                            <div className="w-full md:w-1/2 aspect-square bg-light-gray rounded-3xl relative overflow-hidden flex items-center justify-center p-6">
+                                <Image src="/images/Thermos360.jpg" alt="Термос 360 мл" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain object-center mix-blend-multiply p-6" />
                             </div>
                             <div className="w-full md:w-1/2 flex flex-col items-start text-left">
-                                <h2 className="text-3xl md:text-4xl font-bold mb-4">Термос 380 мл</h2>
+                                <h2 className="text-3xl md:text-4xl font-bold mb-4">Термос 360 мл</h2>
                                 <p className="text-lg text-text-secondary mb-8 leading-relaxed">
-                                    Золотая середина. Идеально ложится в руку, легко помещается в рюкзак или сумку. Оптимальный объем на каждый день.
+                                    Идеальный размер для автомобиля и на работу
                                 </p>
                                 <div className="flex flex-wrap gap-4 w-full sm:w-auto">
                                     <Button variant="primary" href="https://t.me/studio696_thermos" target="_blank" className="w-full sm:w-auto">Заказать в Telegram</Button>
@@ -60,13 +61,13 @@ export default function ModelsPage() {
                     {/* SKU 3 */}
                     <Reveal delay={200}>
                         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
-                            <div className="w-full md:w-1/2 aspect-square bg-light-gray rounded-3xl relative flex items-center justify-center p-8">
-                                <p className="text-text-secondary/50 font-medium z-10 text-center">product-370.webp</p>
+                            <div className="w-full md:w-1/2 aspect-square bg-light-gray rounded-3xl relative overflow-hidden flex items-center justify-center p-6">
+                                <Image src="/images/Thermos360kids.jpg" alt="Термос 360 мл Kids" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain object-center mix-blend-multiply p-6" />
                             </div>
                             <div className="w-full md:w-1/2 flex flex-col items-start text-left">
-                                <h2 className="text-3xl md:text-4xl font-bold mb-4">Кружка 370 мл</h2>
+                                <h2 className="text-3xl md:text-4xl font-bold mb-4">Термос 360 мл Kids</h2>
                                 <p className="text-lg text-text-secondary mb-8 leading-relaxed">
-                                    Для рабочего стола и уютных вечеров. Стильная крышка защитит напиток от остывания и случайного проливания.
+                                    Яркий термос с любимыми персонажами для школы и парка
                                 </p>
                                 <div className="flex flex-wrap gap-4 w-full sm:w-auto">
                                     <Button variant="primary" href="https://t.me/studio696_thermos" target="_blank" className="w-full sm:w-auto">Заказать в Telegram</Button>
