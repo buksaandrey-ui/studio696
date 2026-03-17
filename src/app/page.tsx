@@ -138,8 +138,8 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <Reveal delay={100}>
             <Link href="/models" className="group block">
-              <div className="bg-light-gray rounded-3xl aspect-[4/5] relative overflow-hidden mb-6 flex items-center justify-center p-6">
-                <Image src="/images/Thermos600.jpg" alt="Термос 600 мл" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-contain object-center mix-blend-multiply p-6 transition-transform duration-500 group-hover:scale-105" />
+              <div className="bg-light-gray rounded-3xl aspect-[4/5] relative overflow-hidden mb-6 flex items-center justify-center">
+                <Image src="/images/Thermos600.jpg" alt="Термос 600 мл" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover object-center mix-blend-multiply transition-transform duration-500 group-hover:scale-105" />
               </div>
               <h3 className="text-xl font-semibold mb-1">Термос 600 мл</h3>
               <p className="text-text-secondary">Оптимальный размер для прогулок и путешествий.</p>
@@ -148,8 +148,8 @@ export default function Home() {
 
           <Reveal delay={200}>
             <Link href="/models" className="group block">
-              <div className="bg-light-gray rounded-3xl aspect-[4/5] relative overflow-hidden mb-6 flex items-center justify-center p-6">
-                <Image src="/images/Thermos360.jpg" alt="Термос 360 мл" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-contain object-center mix-blend-multiply p-6 transition-transform duration-500 group-hover:scale-105" />
+              <div className="bg-light-gray rounded-3xl aspect-[4/5] relative overflow-hidden mb-6 flex items-center justify-center">
+                <Image src="/images/Thermos360.jpg" alt="Термос 360 мл" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover object-center mix-blend-multiply transition-transform duration-500 group-hover:scale-105" />
               </div>
               <h3 className="text-xl font-semibold mb-1">Термос 360 мл</h3>
               <p className="text-text-secondary">Идеальный размер для автомобиля и на работу</p>
@@ -158,8 +158,8 @@ export default function Home() {
 
           <Reveal delay={300}>
             <Link href="/models" className="group block">
-              <div className="bg-light-gray rounded-3xl aspect-[4/5] relative overflow-hidden mb-6 flex items-center justify-center p-6">
-                <Image src="/images/Thermos360kids.jpg" alt="Термос 360 мл Kids" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-contain object-center mix-blend-multiply p-6 transition-transform duration-500 group-hover:scale-105" />
+              <div className="bg-light-gray rounded-3xl aspect-[4/5] relative overflow-hidden mb-6 flex items-center justify-center">
+                <Image src="/images/Thermos360kids.jpg" alt="Термос 360 мл Kids" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover object-center mix-blend-multiply transition-transform duration-500 group-hover:scale-105" />
               </div>
               <h3 className="text-xl font-semibold mb-1">Термос 360 мл Kids</h3>
               <p className="text-text-secondary">Яркий термос с любимыми персонажами для школы и парка</p>

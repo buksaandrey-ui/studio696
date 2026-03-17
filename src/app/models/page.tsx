@@ -25,8 +25,8 @@ export default function ModelsPage() {
                     {/* SKU 1 */}
                     <Reveal>
                         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
-                            <div className="w-full md:w-1/2 aspect-square bg-light-gray rounded-3xl relative overflow-hidden flex items-center justify-center p-6">
-                                <Image src="/images/Thermos600.jpg" alt="Термос 600 мл" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain object-center mix-blend-multiply p-6" />
+                            <div className="w-full md:w-1/2 aspect-square bg-light-gray rounded-3xl relative overflow-hidden flex items-center justify-center">
+                                <Image src="/images/Thermos600.jpg" alt="Термос 600 мл" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover object-center mix-blend-multiply" />
                             </div>
                             <div className="w-full md:w-1/2 flex flex-col items-start text-left">
                                 <h2 className="text-3xl md:text-4xl font-bold mb-4">Термос 600 мл</h2>
@@ -43,8 +43,8 @@ export default function ModelsPage() {
                     {/* SKU 2 */}
                     <Reveal delay={100}>
                         <div className="flex flex-col md:flex-row-reverse items-center gap-10 md:gap-16">
-                            <div className="w-full md:w-1/2 aspect-square bg-light-gray rounded-3xl relative overflow-hidden flex items-center justify-center p-6">
-                                <Image src="/images/Thermos360.jpg" alt="Термос 360 мл" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain object-center mix-blend-multiply p-6" />
+                            <div className="w-full md:w-1/2 aspect-square bg-light-gray rounded-3xl relative overflow-hidden flex items-center justify-center">
+                                <Image src="/images/Thermos360.jpg" alt="Термос 360 мл" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover object-center mix-blend-multiply" />
                             </div>
                             <div className="w-full md:w-1/2 flex flex-col items-start text-left">
                                 <h2 className="text-3xl md:text-4xl font-bold mb-4">Термос 360 мл</h2>
@@ -61,8 +61,8 @@ export default function ModelsPage() {
                     {/* SKU 3 */}
                     <Reveal delay={200}>
                         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
-                            <div className="w-full md:w-1/2 aspect-square bg-light-gray rounded-3xl relative overflow-hidden flex items-center justify-center p-6">
-                                <Image src="/images/Thermos360kids.jpg" alt="Термос 360 мл Kids" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain object-center mix-blend-multiply p-6" />
+                            <div className="w-full md:w-1/2 aspect-square bg-light-gray rounded-3xl relative overflow-hidden flex items-center justify-center">
+                                <Image src="/images/Thermos360kids.jpg" alt="Термос 360 мл Kids" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover object-center mix-blend-multiply" />
                             </div>
                             <div className="w-full md:w-1/2 flex flex-col items-start text-left">
                                 <h2 className="text-3xl md:text-4xl font-bold mb-4">Термос 360 мл Kids</h2>
