@@ -88,7 +88,7 @@ export default function ModelsPage() {
                 </Reveal>
                 <Reveal delay={100}>
                     <div className="w-full max-w-[600px] bg-white rounded-3xl mx-auto flex items-center justify-center border border-gray-100 shadow-sm transition-transform duration-300 hover:scale-105 overflow-hidden">
-                        <Image src="/images/gift_packaging.jpeg" alt="Подарочная упаковка" width={800} height={1000} className="w-full h-auto object-cover" />
+                        <Image src="/images/gift_packaging_new.png" alt="Подарочная упаковка" width={800} height={1000} className="w-full h-auto object-cover" />
                     </div>
                 </Reveal>
             </section>
