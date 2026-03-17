@@ -115,7 +115,7 @@ export default function Home() {
                     <span className="text-xl">🎁</span>
                   </div>
                   <h3 className="text-xl font-semibold mb-3">Идеальный подарок</h3>
-                  <p className="text-text-secondary">Каждый заказ упакован в стильную коробку, готовую к вручению.</p>
+                  <p className="text-text-secondary">Каждый заказ упакован в стильную подарочную упаковку, готовую к вручению.</p>
                 </CardContent>
               </Card>
             </Reveal>

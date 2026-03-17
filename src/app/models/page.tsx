@@ -81,14 +81,14 @@ export default function ModelsPage() {
             {/* Comparison / Included */}
             <section className="w-full bg-light-gray py-20 px-4 md:px-6 lg:px-20 text-center">
                 <Reveal>
-                    <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">Что в комплекте?</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">Приятно дарить, приятно получать!</h2>
                     <p className="text-xl text-text-secondary max-w-2xl mx-auto mb-12">
-                        Каждая модель поставляется в фирменной подарочной коробке. Готовое решение для идеального подарка.
+                        Каждый готовый термос мы бережно упаковываем в фирменную подарочную упаковку. Готовое решение для идеального подарка.
                     </p>
                 </Reveal>
                 <Reveal delay={100}>
-                    <div className="w-[200px] h-[200px] bg-white rounded-3xl mx-auto flex items-center justify-center border border-gray-100 shadow-sm transition-transform duration-300 hover:scale-105">
-                        <span className="text-6xl">🎁</span>
+                    <div className="w-full max-w-[600px] bg-white rounded-3xl mx-auto flex items-center justify-center border border-gray-100 shadow-sm transition-transform duration-300 hover:scale-105 overflow-hidden">
+                        <Image src="/images/gift_packaging.jpeg" alt="Подарочная упаковка" width={800} height={1000} className="w-full h-auto object-cover" />
                     </div>
                 </Reveal>
             </section>
