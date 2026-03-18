@@ -8,7 +8,7 @@ export default function PrintsPage() {
         { image: "/images/Prints_mem.jpeg", text: "Актуальный юмор, который всегда с тобой." },
         { image: "/images/Prints_theme.jpeg", text: "Игры, фильмы, хобби. Подчеркни увлечения." },
         { image: "/images/Prints_grats.jpg", text: "Скажи главное без лишних слов." },
-        { image: "/images/Prints_name.jpg", text: "Только твой дизайн." },
+        { image: "/images/Prints_name.jpeg", text: "Только твой дизайн." },
     ];
 
     return (
