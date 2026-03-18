@@ -17,6 +17,9 @@ const mavkaScript = localFont({
 export const metadata: Metadata = {
   title: "Термосы с оригинальным принтом | Studio 696",
   description: "Отличные термосы с оригинальными принтами. Сохраняют тепло и дарят эмоции каждый день. Доставка по всей России.",
+  icons: {
+    icon: "/icon.jpg?v=2",
+  },
 };
 
 import Header from "@/components/layout/Header";
