@@ -32,6 +32,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru" className="scroll-smooth">
+      <head>
+        <link
+          rel="preload"
+          href="/images/thermos_eyes2.png"
+          as="image"
+        />
+      </head>
       <body
         className={`${inter.variable} ${mavkaScript.variable} antialiased text-text-primary selection:bg-black/10`}
       >
