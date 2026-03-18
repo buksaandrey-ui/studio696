@@ -28,7 +28,7 @@ export default function ContactPage() {
             <section className="w-full max-w-[1200px] px-4 md:px-6 lg:px-20 pt-16 md:pt-24 pb-16 text-center">
                 <Reveal>
                     <h1 className="text-5xl md:text-6xl lg:text-7xl font-normal tracking-normal mb-6 font-[family-name:var(--font-script)]">
-                        На связи. Всегда.
+                        <span className="text-[#FF4500]">На</span> св<span className="text-[#FF4500]">я</span>зи. Всег<span className="text-[#FF4500]">да</span>.
                     </h1>
                 </Reveal>
                 <Reveal delay={100}>

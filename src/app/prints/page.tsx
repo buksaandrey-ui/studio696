@@ -18,12 +18,13 @@ export default function PrintsPage() {
             <section className="w-full max-w-[1200px] px-4 md:px-6 lg:px-20 pt-16 md:pt-24 pb-16 text-center">
                 <Reveal>
                     <h1 className="text-5xl md:text-6xl lg:text-7xl font-normal tracking-normal mb-6 font-[family-name:var(--font-script)]">
-                        Искусство на вашем термосе.
+                        Тер<span className="text-[#FF4500]">мо</span>сы с прин<span className="text-[#FF4500]">там</span>и, <br />
+                        которые <span className="text-[#FF4500]">рад</span>уют кажд<span className="text-[#FF4500]">ый</span> день.
                     </h1>
                 </Reveal>
                 <Reveal delay={100}>
                     <p className="text-xl md:text-2xl text-text-secondary max-w-2xl mx-auto">
-                        Собрали коллекции, в которых каждый найдет что-то свое. Выберите из сотен готовых дизайнов или предложите свой.
+                        Создали коллекции, в которых каждый найдет что-то свое. Выберите из готовых вариантов дизайнов или предложите свой.
                     </p>
                 </Reveal>
             </section>

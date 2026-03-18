@@ -11,7 +11,7 @@ export default function Footer() {
                             <img src="/images/logo.png" alt="Studio 696" className="w-full h-auto object-contain object-left" />
                         </Link>
                         <p className="text-xl md:text-3xl font-normal text-text-primary font-[family-name:var(--font-script)] leading-[1.1] whitespace-pre-wrap text-left inline-block mt-[-10px]">
-                            {"По"}<span className="text-[#FF4500]">да</span>{"рки      \n        с  эмоциями"}<span className="text-[#FF4500]">!</span>
+                            {"По"}<span className="text-[#FF4500]">да</span>{"рки      \n        с  э"}<span className="text-[#FF4500]">мо</span>{"циями"}<span className="text-[#FF4500]">!</span>
                         </p>
                     </div>
 
