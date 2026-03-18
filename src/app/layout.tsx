@@ -20,6 +20,10 @@ export const metadata: Metadata = {
   icons: {
     icon: "/icon.jpg?v=2",
   },
+  verification: {
+    google: "CLxfQhVIRoIjvk_y_sqzzkCPCgIPAZxUK1_VKOAkBoo",
+    yandex: "bb33f6afde8c773a",
+  },
 };
 
 import Header from "@/components/layout/Header";
