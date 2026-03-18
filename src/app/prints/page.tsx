@@ -1,15 +1,14 @@
 import { Card, CardContent } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
+import Image from "next/image";
 
 export default function PrintsPage() {
     const categories = [
-        { title: "Мемы", text: "Актуальный юмор, который всегда с тобой.", icon: "🤡" },
-        { title: "Тематические", text: "Игры, фильмы, хобби. Подчеркни увлечения.", icon: "🎮" },
-        { title: "Поздравительные", text: "Скажи главное без лишних слов.", icon: "🎉" },
-        { title: "Именные", text: "Только твой дизайн.", icon: "✍️" },
-        { title: "Детские", text: "Радость для самых маленьких.", icon: "🦄" },
-        { title: "Фотоколлаж", text: "Ваши воспоминания всегда под рукой.", icon: "🖼️" },
+        { image: "/images/Prints_mem.jpeg", text: "Актуальный юмор, который всегда с тобой." },
+        { image: "/images/Prints_theme.jpeg", text: "Игры, фильмы, хобби. Подчеркни увлечения." },
+        { image: "/images/Prints_grats.jpg", text: "Скажи главное без лишних слов." },
+        { image: "/images/Prints_name.jpg", text: "Только твой дизайн." },
     ];
 
     return (
@@ -31,16 +30,15 @@ export default function PrintsPage() {
 
             {/* Categories Grid */}
             <section className="w-full max-w-[1200px] px-4 md:px-6 lg:px-20 pb-24">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
                     {categories.map((c, i) => (
                         <Reveal key={i} delay={i * 100}>
-                            <Card className="hover:-translate-y-1 h-full">
-                                <CardContent className="p-8 h-full">
-                                    <div className="w-14 h-14 rounded-full bg-light-gray flex items-center justify-center mb-6 text-2xl">
-                                        {c.icon}
-                                    </div>
-                                    <h3 className="text-xl font-semibold mb-2">{c.title}</h3>
-                                    <p className="text-text-secondary">{c.text}</p>
+                            <Card className="hover:-translate-y-1 h-full overflow-hidden flex flex-col">
+                                <div className="w-full aspect-[4/3] relative bg-light-gray">
+                                    <Image src={c.image} alt="Принты" fill className="object-cover" />
+                                </div>
+                                <CardContent className="p-6 md:p-8 flex-1 flex items-center justify-center text-center">
+                                    <p className="text-lg md:text-xl text-text-primary font-medium">{c.text}</p>
                                 </CardContent>
                             </Card>
                         </Reveal>
