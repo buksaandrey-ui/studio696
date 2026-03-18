@@ -1,9 +1,22 @@
+"use client";
+
 import { Card, CardContent } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
 import Image from "next/image";
+import { useState, useEffect } from "react";
 
 export default function PrintsPage() {
+    const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+    // Закрытие по клавише ESC
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key === "Escape") setSelectedImage(null);
+        };
+        window.addEventListener("keydown", handleKeyDown);
+        return () => window.removeEventListener("keydown", handleKeyDown);
+    }, []);
     const categories = [
         { image: "/images/Prints_mem.jpeg", text: "Актуальный юмор, который всегда с тобой." },
         { image: "/images/Prints_theme.jpeg", text: "Игры, фильмы, хобби. Подчеркни увлечения." },
@@ -34,8 +47,12 @@ export default function PrintsPage() {
                     {categories.map((c, i) => (
                         <Reveal key={i} delay={i * 100}>
                             <Card className="hover:-translate-y-1 h-full overflow-hidden flex flex-col">
-                                <div className="w-full aspect-[4/3] relative bg-light-gray">
-                                    <Image src={c.image} alt="Принты" fill className="object-cover" />
+                                <div 
+                                    className="w-full aspect-[4/3] relative bg-light-gray cursor-pointer group"
+                                    onClick={() => setSelectedImage(c.image)}
+                                >
+                                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors z-10 hidden md:block" />
+                                    <Image src={c.image} alt="Принты" fill className="object-cover transition-transform duration-500 md:group-hover:scale-105" />
                                 </div>
                                 <CardContent className="p-6 md:p-8 flex-1 flex items-center justify-center text-center">
                                     <p className="text-lg md:text-xl text-text-primary font-medium">{c.text}</p>
@@ -60,6 +77,33 @@ export default function PrintsPage() {
                     </div>
                 </Reveal>
             </section>
+            {/* Lightbox Overlay */}
+            {selectedImage && (
+                <div 
+                    className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4 md:p-10 transition-opacity"
+                    onClick={() => setSelectedImage(null)}
+                >
+                    <button 
+                        className="absolute top-4 right-4 md:top-8 md:right-8 text-white/70 hover:text-white transition-colors z-50 p-2"
+                        onClick={(e) => { e.stopPropagation(); setSelectedImage(null); }}
+                        aria-label="Закрыть"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                    </button>
+                    <div 
+                        className="relative w-full max-w-5xl h-full flex items-center justify-center" 
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <Image 
+                            src={selectedImage} 
+                            alt="Принт (увеличено)" 
+                            fill 
+                            className="object-contain"
+                            priority
+                        />
+                    </div>
+                </div>
+            )}
         </div>
     );
 }
