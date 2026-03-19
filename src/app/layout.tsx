@@ -15,11 +15,20 @@ const mavkaScript = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://studio696.ru"),
   title: "Термосы с оригинальным принтом | Studio 696",
   description: "Отличные термосы с оригинальными принтами. Сохраняют тепло и дарят эмоции каждый день. Доставка по всей России.",
   icons: {
-    icon: "/icon.jpg?v=2",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-embedded.svg", type: "image/svg+xml" },
+      { url: "/favicon-32.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180" }
+    ],
   },
+  manifest: "/manifest.json",
   verification: {
     google: "CLxfQhVIRoIjvk_y_sqzzkCPCgIPAZxUK1_VKOAkBoo",
     yandex: "bb33f6afde8c773a",

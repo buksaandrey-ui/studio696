@@ -1,6 +1,15 @@
+import type { Metadata } from "next";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Подарочные термосы: детские, 360 мл и 600 мл | Studio 696",
+  description: "Выберите идеальный термос: компактный на 360 мл, вместительный на 600 мл или детский термос для школы. Сравнение моделей и характеристик.",
+  alternates: {
+    canonical: "/models",
+  },
+};
 
 export default function ModelsPage() {
     return (
@@ -8,8 +17,8 @@ export default function ModelsPage() {
             {/* Header */}
             <section className="w-full max-w-[1200px] px-4 md:px-6 lg:px-20 pt-16 md:pt-24 pb-16 text-center">
                 <Reveal>
-                    <h1 className="text-5xl md:text-6xl lg:text-7xl font-normal tracking-normal mb-6 font-[family-name:var(--font-script)]">
-                        Три <span className="text-[#FF4500]">фор</span>мата. Для <span className="text-[#FF4500]">лю</span>бых за<span className="text-[#FF4500]">да</span>ч.
+                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-normal tracking-normal mb-6 font-[family-name:var(--font-script)]">
+                        По<span className="text-[#FF4500]">да</span>рочные тер<span className="text-[#FF4500]">мо</span>сы: <br className="hidden md:block"/> <span className="text-[#FF4500]">дет</span>ские, 360 мл и 600 мл
                     </h1>
                 </Reveal>
                 <Reveal delay={100}>

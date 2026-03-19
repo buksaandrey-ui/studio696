@@ -1,6 +1,15 @@
+import type { Metadata } from "next";
 import { Accordion } from "@/components/ui/Accordion";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
+
+export const metadata: Metadata = {
+  title: "Заказать термос с принтом и логотипом | Контакты Studio 696",
+  description: "Свяжитесь с нами для заказа персонализированного термоса. Оформление через Telegram или WhatsApp. Быстрое изготовление и доставка.",
+  alternates: {
+    canonical: "/contact",
+  },
+};
 
 export default function ContactPage() {
     const faqItems = [
@@ -27,8 +36,8 @@ export default function ContactPage() {
             {/* Header */}
             <section className="w-full max-w-[1200px] px-4 md:px-6 lg:px-20 pt-16 md:pt-24 pb-16 text-center">
                 <Reveal>
-                    <h1 className="text-5xl md:text-6xl lg:text-7xl font-normal tracking-normal mb-6 font-[family-name:var(--font-script)]">
-                        <span className="text-[#FF4500]">На</span> св<span className="text-[#FF4500]">я</span>зи. Всег<span className="text-[#FF4500]">да</span>.
+                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-normal tracking-normal mb-6 font-[family-name:var(--font-script)]">
+                        Зака<span className="text-[#FF4500]">за</span>ть термос <br className="hidden md:block" /> с принтом и логоти<span className="text-[#FF4500]">по</span>м
                     </h1>
                 </Reveal>
                 <Reveal delay={100}>

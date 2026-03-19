@@ -1,12 +1,38 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent } from "@/components/ui/Card";
 import { Reveal } from "@/components/ui/Reveal";
 
+export const metadata: Metadata = {
+  title: "Термосы на заказ с принтом, фото и логотипом | Studio 696",
+  description: "Заказать термос с принтом, надписями, логотипом или фотографией. Детские и подарочные термосы. Доставка по всей России от Studio 696.",
+  alternates: {
+    canonical: "/",
+  },
+};
+
 export default function Home() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Studio 696",
+    "alternateName": "Студия 696",
+    "url": "https://studio696.ru/",
+    "logo": "https://studio696.ru/favicon-120.png",
+    "sameAs": [
+      "https://t.me/studio696_thermos",
+      "https://wa.me/79013658929"
+    ]
+  };
+
   return (
     <div className="flex flex-col items-center">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero Section */}
       <section className="w-full max-w-[1200px] px-4 md:px-6 lg:px-20 pt-8 md:pt-12 pb-2 md:pb-32 text-center relative -mb-[70px] md:mb-0">
         <div
