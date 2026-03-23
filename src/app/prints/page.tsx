@@ -42,7 +42,7 @@ export default function PrintsPage() {
             </section>
 
             {/* Categories Grid */}
-            <section className="w-full max-w-[1200px] px-4 md:px-6 lg:px-20 pb-24">
+            <section className="w-full max-w-[1200px] px-4 md:px-6 lg:px-20 pb-16">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
                     {categories.map((c, i) => (
                         <Reveal key={i} delay={i * 100}>
@@ -60,6 +60,61 @@ export default function PrintsPage() {
                             </Card>
                         </Reveal>
                     ))}
+                </div>
+            </section>
+
+            {/* Separator + New categories */}
+            <section className="w-full max-w-[1200px] px-4 md:px-6 lg:px-20 pb-24">
+                <Reveal>
+                    <div className="flex items-center gap-4 mb-10">
+                        <div className="flex-1 h-px bg-gray-300" />
+                        <span className="text-sm md:text-base font-semibold uppercase tracking-widest text-text-secondary whitespace-nowrap">Ваши фото и логотипы</span>
+                        <div className="flex-1 h-px bg-gray-300" />
+                    </div>
+                </Reveal>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+                    <Reveal>
+                        <Card className="hover:-translate-y-1 h-full overflow-hidden flex flex-col">
+                            <div 
+                                className="w-full aspect-[4/3] relative bg-light-gray cursor-pointer group"
+                                onClick={() => setSelectedImage("/images/Prints_detskie.jpg")}
+                            >
+                                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors z-10 hidden md:block" />
+                                <Image src="/images/Prints_detskie.jpg" alt="Детские принты для термоса" fill className="object-cover transition-transform duration-500 md:group-hover:scale-105" />
+                            </div>
+                            <CardContent className="p-6 md:p-8 flex-1 flex items-center justify-center text-center">
+                                <p className="text-lg md:text-xl text-text-primary font-medium">Детские — любимые персонажи на термосе.</p>
+                            </CardContent>
+                        </Card>
+                    </Reveal>
+                    <Reveal delay={100}>
+                        <Card className="hover:-translate-y-1 h-full overflow-hidden flex flex-col">
+                            <div 
+                                className="w-full aspect-[4/3] relative bg-light-gray cursor-pointer group"
+                                onClick={() => setSelectedImage("/images/Prints_logotipy.jpg")}
+                            >
+                                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors z-10 hidden md:block" />
+                                <Image src="/images/Prints_logotipy.jpg" alt="Логотипы для печати на термосе" fill className="object-cover transition-transform duration-500 md:group-hover:scale-105" />
+                            </div>
+                            <CardContent className="p-6 md:p-8 flex-1 flex items-center justify-center text-center">
+                                <p className="text-lg md:text-xl text-text-primary font-medium">Логотипы — ваш бренд на каждом термосе.</p>
+                            </CardContent>
+                        </Card>
+                    </Reveal>
+                    <Reveal delay={200}>
+                        <Card className="hover:-translate-y-1 h-full overflow-hidden flex flex-col">
+                            <div 
+                                className="w-full aspect-[4/3] relative bg-light-gray cursor-pointer group"
+                                onClick={() => setSelectedImage("/images/Prints_vashi_foto.jpg")}
+                            >
+                                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors z-10 hidden md:block" />
+                                <Image src="/images/Prints_vashi_foto.jpg" alt="Ваши фотографии на термосе" fill className="object-cover transition-transform duration-500 md:group-hover:scale-105" />
+                            </div>
+                            <CardContent className="p-6 md:p-8 flex-1 flex items-center justify-center text-center">
+                                <p className="text-lg md:text-xl text-text-primary font-medium">Ваши фотографии — на термосе.</p>
+                            </CardContent>
+                        </Card>
+                    </Reveal>
                 </div>
             </section>
 

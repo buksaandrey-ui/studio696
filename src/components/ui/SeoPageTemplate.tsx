@@ -20,11 +20,12 @@ interface SeoPageProps {
   image1Props: ImageProps;
   image2Props: ImageProps;
   extraImages?: ImageProps[];
+  printImages?: ImageProps[];
   content: React.ReactNode;
   faq: FaqItem[];
 }
 
-export function SeoPageTemplate({ h1, subtitle, content, faq, image1Props, image2Props, extraImages }: SeoPageProps) {
+export function SeoPageTemplate({ h1, subtitle, content, faq, image1Props, image2Props, extraImages, printImages }: SeoPageProps) {
   return (
     <div className="flex flex-col items-center overflow-hidden">
       {/* Header */}
@@ -62,7 +63,7 @@ export function SeoPageTemplate({ h1, subtitle, content, faq, image1Props, image
                   </div>
               </Reveal>
 
-              {/* Extra themed images */}
+              {/* Extra thermos images */}
               {extraImages && extraImages.length > 0 && (
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
                       {extraImages.map((img, i) => (
@@ -72,6 +73,28 @@ export function SeoPageTemplate({ h1, subtitle, content, faq, image1Props, image
                               </div>
                           </Reveal>
                       ))}
+                  </div>
+              )}
+
+              {/* Print images — visually separated */}
+              {printImages && printImages.length > 0 && (
+                  <div className="w-full flex flex-col gap-8 md:gap-12">
+                      <Reveal>
+                          <div className="flex items-center gap-4 pt-4">
+                              <div className="flex-1 h-px bg-gray-300" />
+                              <span className="text-sm md:text-base font-semibold uppercase tracking-widest text-text-secondary whitespace-nowrap">Примеры принтов и дизайнов</span>
+                              <div className="flex-1 h-px bg-gray-300" />
+                          </div>
+                      </Reveal>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                          {printImages.map((img, i) => (
+                              <Reveal key={i} delay={i * 100}>
+                                  <div className="w-full rounded-3xl overflow-hidden flex items-center justify-center bg-light-gray">
+                                      <Image src={img.src} alt={img.alt} width={800} height={600} className="w-full h-auto object-contain" />
+                                  </div>
+                              </Reveal>
+                          ))}
+                      </div>
                   </div>
               )}
           </div>

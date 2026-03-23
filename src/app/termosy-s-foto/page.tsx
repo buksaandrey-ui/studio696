@@ -57,13 +57,17 @@ export default function TermosySFotoPage() {
       subtitle="Запечатлейте дорогие моменты на долговечном термосе от Studio 696. Идеальный подарок, который всегда рядом."
       content={content}
       faq={faq}
-      image1Props={{ src: "/images/Prints_name.jpeg", alt: "Термос с фотографией — персональный дизайн" }}
+      image1Props={{ src: "/images/Prints_foto.jpg", alt: "Примеры фотографий для нанесения на термосы" }}
       image2Props={{ src: "/images/gift_packaging_new.png", alt: "Подарочный термос с фото в стильной упаковке" }}
       extraImages={[
         { src: "/images/Thermos600_new.png", alt: "Термос с фотографией 600 мл" },
         { src: "/images/Thermos360_new.png", alt: "Термос с фотографией 360 мл" },
         { src: "/images/Thermos360Kids_new.png", alt: "Детский термос с фотографией" },
         { src: "/images/hero-main.png", alt: "Коллекция термосов с фото от Studio 696" },
+      ]}
+      printImages={[
+        { src: "/images/Prints_logo.jpg", alt: "Примеры логотипов для нанесения на термосы с фото" },
+        { src: "/images/Prints_name.jpeg", alt: "Термос с фотографией — персональный дизайн" },
         { src: "/images/Prints_grats.jpeg", alt: "Термос с фотографией и поздравлением" },
         { src: "/images/Prints_mem.jpeg", alt: "Термос с фото и смешными надписями" },
         { src: "/images/Prints_theme.jpeg", alt: "Тематические термосы с фотопечатью" },

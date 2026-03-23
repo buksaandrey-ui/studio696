@@ -58,12 +58,16 @@ export default function PodarochnyeTermosyPage() {
       content={content}
       faq={faq}
       image1Props={{ src: "/images/gift_packaging_new.png", alt: "Подарочная упаковка термоса Studio 696" }}
-      image2Props={{ src: "/images/Prints_grats.jpeg", alt: "Идеи подарочных термосов с поздравлениями" }}
+      image2Props={{ src: "/images/hero-main.png", alt: "Коллекция подарочных термосов Studio 696" }}
       extraImages={[
         { src: "/images/Thermos600_new.png", alt: "Подарочный термос 600 мл" },
         { src: "/images/Thermos360_new.png", alt: "Подарочный термос 360 мл" },
         { src: "/images/Thermos360Kids_new.png", alt: "Детский подарочный термос с трубочкой" },
-        { src: "/images/hero-main.png", alt: "Коллекция подарочных термосов Studio 696" },
+      ]}
+      printImages={[
+        { src: "/images/Prints_logo.jpg", alt: "Примеры логотипов для подарочных термосов" },
+        { src: "/images/Prints_foto.jpg", alt: "Примеры фотографий для подарочных термосов" },
+        { src: "/images/Prints_grats.jpeg", alt: "Идеи подарочных термосов с поздравлениями" },
         { src: "/images/Prints_name.jpeg", alt: "Именной подарочный термос" },
         { src: "/images/Prints_mem.jpeg", alt: "Весёлый подарочный термос с мемами" },
         { src: "/images/Prints_theme.jpeg", alt: "Тематические подарочные термосы" },

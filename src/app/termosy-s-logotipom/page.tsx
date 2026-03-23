@@ -57,12 +57,16 @@ export default function TermosySLogotipomPage() {
       subtitle="Заявите о своем бренде красиво. Качественные термосы с корпоративной символикой от Studio 696."
       content={content}
       faq={faq}
-      image1Props={{ src: "/images/Thermos600_new.png", alt: "Термос с логотипом 600 мл — корпоративный подарок" }}
+      image1Props={{ src: "/images/Prints_logo.jpg", alt: "Примеры логотипов для нанесения на термосы" }}
       image2Props={{ src: "/images/gift_packaging_new.png", alt: "Подарочная упаковка термосов с логотипом компании" }}
       extraImages={[
+        { src: "/images/Thermos600_new.png", alt: "Термос с логотипом 600 мл — корпоративный подарок" },
         { src: "/images/Thermos360_new.png", alt: "Термос с логотипом 360 мл для корпоративных подарков" },
         { src: "/images/Thermos360Kids_new.png", alt: "Детский термос с логотипом для школьных мероприятий" },
         { src: "/images/hero-main.png", alt: "Коллекция термосов с логотипом Studio 696" },
+      ]}
+      printImages={[
+        { src: "/images/Prints_foto.jpg", alt: "Примеры фотографий для нанесения на термосы с логотипом" },
         { src: "/images/Prints_theme.jpeg", alt: "Тематические принты для брендированных термосов с логотипом" },
         { src: "/images/Prints_name.jpeg", alt: "Именные термосы с логотипом и текстом" },
         { src: "/images/Prints_grats.jpeg", alt: "Корпоративные термосы с логотипом и поздравлением" },

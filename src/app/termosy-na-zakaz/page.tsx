@@ -62,6 +62,10 @@ export default function TermosyNaZakazPage() {
         { src: "/images/Thermos600_new.png", alt: "Термос 600 мл на заказ с принтом" },
         { src: "/images/Thermos360_new.png", alt: "Термос 360 мл на заказ с логотипом" },
         { src: "/images/Thermos360Kids_new.png", alt: "Детский термос на заказ с рисунком" },
+      ]}
+      printImages={[
+        { src: "/images/Prints_logo.jpg", alt: "Примеры логотипов для термосов на заказ" },
+        { src: "/images/Prints_foto.jpg", alt: "Примеры фотографий для термосов на заказ" },
         { src: "/images/Prints_mem.jpeg", alt: "Термосы на заказ с мемами и юмором" },
         { src: "/images/Prints_theme.jpeg", alt: "Тематические термосы на заказ" },
         { src: "/images/Prints_grats.jpeg", alt: "Термосы на заказ с поздравительными надписями" },

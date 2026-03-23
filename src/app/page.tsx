@@ -165,30 +165,57 @@ export default function Home() {
           <Reveal delay={100}>
             <Link href="/models" className="group block">
               <div className="bg-light-gray rounded-3xl relative overflow-hidden mb-6 flex items-center justify-center">
-                <Image src="/images/Thermos600_new.png" alt="Термос 600 мл" width={800} height={800} className="w-full h-auto object-cover" />
+                <Image src="/images/Thermos600_poilnik.png" alt="Термос/термокружка с поильником и трубочкой 600 мл" width={800} height={800} className="w-full h-auto object-cover" />
               </div>
-              <h3 className="text-xl font-semibold mb-1">Термос 600 мл</h3>
-              <p className="text-text-secondary">Оптимальный размер для прогулок и путешествий.</p>
+              <h3 className="text-xl font-semibold mb-1">Термос/термокружка с поильником и трубочкой</h3>
+              <p className="text-text-secondary text-sm leading-relaxed">
+                Объем 600 мл<br />
+                Держит тепло до 12 часов<br />
+                Держит холод до 8 часов<br />
+                Материал: нержавеющая сталь<br />
+                Герметичная крышка<br />
+                Удобная защелка<br />
+                Высота 23 см<br />
+                Диаметр 7,5 см
+              </p>
             </Link>
           </Reveal>
 
           <Reveal delay={200}>
             <Link href="/models" className="group block">
               <div className="bg-light-gray rounded-3xl relative overflow-hidden mb-6 flex items-center justify-center">
-                <Image src="/images/Thermos360_new.png" alt="Термос 360 мл" width={800} height={800} className="w-full h-auto object-cover" />
+                <Image src="/images/Thermos360_poilnik.jpg" alt="Термос/термокружка на каждый день с удобным поильником 360 мл" width={800} height={800} className="w-full h-auto object-cover" />
               </div>
-              <h3 className="text-xl font-semibold mb-1">Термос 360 мл</h3>
-              <p className="text-text-secondary">Идеальный размер для автомобиля и на работу</p>
+              <h3 className="text-xl font-semibold mb-1">Термос/термокружка на каждый день с удобным поильником</h3>
+              <p className="text-text-secondary text-sm leading-relaxed">
+                Объем 360 мл<br />
+                Держит тепло до 12 часов<br />
+                Держит холод до 8 часов<br />
+                Материал: нержавеющая сталь<br />
+                Герметичная крышка<br />
+                Удобная защелка<br />
+                Высота 21,5 см<br />
+                Диаметр 6,5 см
+              </p>
             </Link>
           </Reveal>
 
           <Reveal delay={300}>
             <Link href="/models" className="group block">
               <div className="bg-light-gray rounded-3xl relative overflow-hidden mb-6 flex items-center justify-center">
-                <Image src="/images/Thermos360Kids_new.png" alt="Термос 360 мл Kids" width={800} height={800} className="w-full h-auto object-cover" />
+                <Image src="/images/Thermos360Kids_colors_new.jpg" alt="Термос/термокружка с цветной крышкой и трубочкой 360 мл" width={800} height={800} className="w-full h-auto object-cover" />
               </div>
-              <h3 className="text-xl font-semibold mb-1">Термос 360 мл Kids</h3>
-              <p className="text-text-secondary">Яркий термос с любимыми персонажами для школы и парка</p>
+              <h3 className="text-xl font-semibold mb-1">Термос/термокружка с цветной крышкой и трубочкой</h3>
+              <p className="text-text-secondary text-sm leading-relaxed">
+                Объем 360 мл<br />
+                Держит тепло до 12 часов<br />
+                Держит холод до 8 часов<br />
+                Материал: нержавеющая сталь<br />
+                Герметичная крышка<br />
+                Удобная защелка<br />
+                Высота 19 см<br />
+                Диаметр 6,8 см
+              </p>
             </Link>
           </Reveal>
         </div>
