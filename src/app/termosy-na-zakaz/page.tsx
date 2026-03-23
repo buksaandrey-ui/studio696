@@ -59,9 +59,9 @@ export default function TermosyNaZakazPage() {
       image1Props={{ src: "/images/hero-main.png", alt: "Термосы на заказ — коллекция Studio 696" }}
       image2Props={{ src: "/images/gift_packaging_new.png", alt: "Подарочная упаковка для термосов на заказ" }}
       extraImages={[
-        { src: "/images/Thermos600_new.png", alt: "Термос 600 мл на заказ с принтом" },
-        { src: "/images/Thermos360_new.png", alt: "Термос 360 мл на заказ с логотипом" },
-        { src: "/images/Thermos360Kids_new.png", alt: "Детский термос на заказ с рисунком" },
+        { src: "/images/Thermos600_poilnik.png", alt: "Термос 600 мл на заказ с принтом" },
+        { src: "/images/Thermos360_poilnik_new.png", alt: "Термос 360 мл на заказ с логотипом" },
+        { src: "/images/Thermos360Kids_colors_new.jpg", alt: "Детский термос на заказ с рисунком" },
       ]}
       printImages={[
         { src: "/images/Prints_logo.jpg", alt: "Примеры логотипов для термосов на заказ" },

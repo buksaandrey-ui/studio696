@@ -56,11 +56,11 @@ export default function DetskieTermosyPage() {
       subtitle="Яркие, надежные и удобные детские термосы-поильники для школы и прогулок от Studio 696."
       content={content}
       faq={faq}
-      image1Props={{ src: "/images/Thermos360Kids_new.png", alt: "Детский термос с трубочкой для школы" }}
+      image1Props={{ src: "/images/Thermos360Kids_colors_new.jpg", alt: "Детский термос с трубочкой для школы" }}
       image2Props={{ src: "/images/gift_packaging_new.png", alt: "Подарочная упаковка детского термоса" }}
       extraImages={[
-        { src: "/images/Thermos600_new.png", alt: "Детский термос 600 мл для прогулок" },
-        { src: "/images/Thermos360_new.png", alt: "Компактный детский термос 360 мл" },
+        { src: "/images/Thermos600_poilnik.png", alt: "Детский термос 600 мл для прогулок" },
+        { src: "/images/Thermos360_poilnik_new.png", alt: "Компактный детский термос 360 мл" },
         { src: "/images/hero-main.png", alt: "Коллекция детских термосов Studio 696" },
         { src: "/images/Prints_mem.jpeg", alt: "Детские термосы с весёлыми мемами" },
         { src: "/images/Prints_theme.jpeg", alt: "Тематические принты для детских термосов" },

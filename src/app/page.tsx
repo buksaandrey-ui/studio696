@@ -172,11 +172,7 @@ export default function Home() {
                 Объем 600 мл<br />
                 Держит тепло до 12 часов<br />
                 Держит холод до 8 часов<br />
-                Материал: нержавеющая сталь<br />
-                Герметичная крышка<br />
-                Удобная защелка<br />
-                Высота 23 см<br />
-                Диаметр 7,5 см
+                Материал: нержавеющая сталь
               </p>
             </Link>
           </Reveal>
@@ -184,18 +180,14 @@ export default function Home() {
           <Reveal delay={200}>
             <Link href="/models" className="group block">
               <div className="bg-light-gray rounded-3xl relative overflow-hidden mb-6 flex items-center justify-center">
-                <Image src="/images/Thermos360_poilnik.jpg" alt="Термос/термокружка на каждый день с удобным поильником 360 мл" width={800} height={800} className="w-full h-auto object-cover" />
+                <Image src="/images/Thermos360_poilnik_new.png" alt="Термос/термокружка на каждый день с удобным поильником 360 мл" width={800} height={800} className="w-full h-auto object-cover" />
               </div>
               <h3 className="text-xl font-semibold mb-1">Термос/термокружка на каждый день с удобным поильником</h3>
               <p className="text-text-secondary text-sm leading-relaxed">
                 Объем 360 мл<br />
                 Держит тепло до 12 часов<br />
                 Держит холод до 8 часов<br />
-                Материал: нержавеющая сталь<br />
-                Герметичная крышка<br />
-                Удобная защелка<br />
-                Высота 21,5 см<br />
-                Диаметр 6,5 см
+                Материал: нержавеющая сталь
               </p>
             </Link>
           </Reveal>
@@ -210,11 +202,7 @@ export default function Home() {
                 Объем 360 мл<br />
                 Держит тепло до 12 часов<br />
                 Держит холод до 8 часов<br />
-                Материал: нержавеющая сталь<br />
-                Герметичная крышка<br />
-                Удобная защелка<br />
-                Высота 19 см<br />
-                Диаметр 6,8 см
+                Материал: нержавеющая сталь
               </p>
             </Link>
           </Reveal>

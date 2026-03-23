@@ -60,9 +60,9 @@ export default function TermosySLogotipomPage() {
       image1Props={{ src: "/images/Prints_logo.jpg", alt: "Примеры логотипов для нанесения на термосы" }}
       image2Props={{ src: "/images/gift_packaging_new.png", alt: "Подарочная упаковка термосов с логотипом компании" }}
       extraImages={[
-        { src: "/images/Thermos600_new.png", alt: "Термос с логотипом 600 мл — корпоративный подарок" },
-        { src: "/images/Thermos360_new.png", alt: "Термос с логотипом 360 мл для корпоративных подарков" },
-        { src: "/images/Thermos360Kids_new.png", alt: "Детский термос с логотипом для школьных мероприятий" },
+        { src: "/images/Thermos600_poilnik.png", alt: "Термос с логотипом 600 мл — корпоративный подарок" },
+        { src: "/images/Thermos360_poilnik_new.png", alt: "Термос с логотипом 360 мл для корпоративных подарков" },
+        { src: "/images/Thermos360Kids_colors_new.jpg", alt: "Детский термос с логотипом для школьных мероприятий" },
         { src: "/images/hero-main.png", alt: "Коллекция термосов с логотипом Studio 696" },
       ]}
       printImages={[

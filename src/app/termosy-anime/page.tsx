@@ -59,9 +59,9 @@ export default function TermosyAnimePage() {
       image1Props={{ src: "/images/Prints_theme.jpeg", alt: "Аниме принты на термосах Studio 696" }}
       image2Props={{ src: "/images/Prints_name.jpeg", alt: "Кастомные термосы с аниме-дизайном" }}
       extraImages={[
-        { src: "/images/Thermos600_new.png", alt: "Термос 600 мл с аниме-принтом" },
-        { src: "/images/Thermos360_new.png", alt: "Термос 360 мл с аниме-дизайном" },
-        { src: "/images/Thermos360Kids_new.png", alt: "Детский термос с аниме для школы" },
+        { src: "/images/Thermos600_poilnik.png", alt: "Термос 600 мл с аниме-принтом" },
+        { src: "/images/Thermos360_poilnik_new.png", alt: "Термос 360 мл с аниме-дизайном" },
+        { src: "/images/Thermos360Kids_colors_new.jpg", alt: "Детский термос с аниме для школы" },
         { src: "/images/hero-main.png", alt: "Коллекция аниме-термосов Studio 696" },
         { src: "/images/gift_packaging_new.png", alt: "Подарочная упаковка аниме-термоса" },
         { src: "/images/Prints_mem.jpeg", alt: "Популярные аниме-мемы на термосах" },

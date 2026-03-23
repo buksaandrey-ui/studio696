@@ -35,12 +35,19 @@ export default function ModelsPage() {
                     <Reveal>
                         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
                             <div className="w-full md:w-1/2 rounded-3xl relative overflow-hidden flex items-center justify-center bg-light-gray">
-                                <Image src="/images/Thermos600_new.png" alt="Термос 600 мл" width={800} height={800} className="w-full h-auto object-cover" />
+                                <Image src="/images/Thermos600_poilnik.png" alt="Термос/термокружка с поильником и трубочкой 600 мл" width={800} height={800} className="w-full h-auto object-cover" />
                             </div>
                             <div className="w-full md:w-1/2 flex flex-col items-start text-left">
-                                <h2 className="text-3xl md:text-4xl font-bold mb-4">Термос 600 мл</h2>
+                                <h2 className="text-3xl md:text-4xl font-bold mb-4">Термос/термокружка с поильником и трубочкой</h2>
                                 <p className="text-lg text-text-secondary mb-8 leading-relaxed">
-                                    Оптимальный размер для прогулок и путешествий.
+                                    Объем 600 мл<br />
+                                    Держит тепло до 12 часов<br />
+                                    Держит холод до 8 часов<br />
+                                    Материал: нержавеющая сталь<br />
+                                    Герметичная крышка<br />
+                                    Удобная защелка<br />
+                                    Высота 23 см<br />
+                                    Диаметр 7,5 см
                                 </p>
                                 <div className="flex flex-wrap gap-4 w-full sm:w-auto">
                                     <Button variant="primary" href="https://t.me/studio696_thermos" target="_blank" className="w-full sm:w-auto">Заказать в Telegram</Button>
@@ -53,12 +60,19 @@ export default function ModelsPage() {
                     <Reveal delay={100}>
                         <div className="flex flex-col md:flex-row-reverse items-center gap-10 md:gap-16">
                             <div className="w-full md:w-1/2 rounded-3xl relative overflow-hidden flex items-center justify-center bg-light-gray">
-                                <Image src="/images/Thermos360_new.png" alt="Термос 360 мл" width={800} height={800} className="w-full h-auto object-cover" />
+                                <Image src="/images/Thermos360_poilnik_new.png" alt="Термос/термокружка на каждый день с удобным поильником 360 мл" width={800} height={800} className="w-full h-auto object-cover" />
                             </div>
                             <div className="w-full md:w-1/2 flex flex-col items-start text-left">
-                                <h2 className="text-3xl md:text-4xl font-bold mb-4">Термос 360 мл</h2>
+                                <h2 className="text-3xl md:text-4xl font-bold mb-4">Термос/термокружка на каждый день с удобным поильником</h2>
                                 <p className="text-lg text-text-secondary mb-8 leading-relaxed">
-                                    Идеальный размер для автомобиля и на работу
+                                    Объем 360 мл<br />
+                                    Держит тепло до 12 часов<br />
+                                    Держит холод до 8 часов<br />
+                                    Материал: нержавеющая сталь<br />
+                                    Герметичная крышка<br />
+                                    Удобная защелка<br />
+                                    Высота 21,5 см<br />
+                                    Диаметр 6,5 см
                                 </p>
                                 <div className="flex flex-wrap gap-4 w-full sm:w-auto">
                                     <Button variant="primary" href="https://t.me/studio696_thermos" target="_blank" className="w-full sm:w-auto">Заказать в Telegram</Button>
@@ -71,12 +85,19 @@ export default function ModelsPage() {
                     <Reveal delay={200}>
                         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
                             <div className="w-full md:w-1/2 rounded-3xl relative overflow-hidden flex items-center justify-center bg-light-gray">
-                                <Image src="/images/Thermos360Kids_new.png" alt="Термос 360 мл Kids" width={800} height={800} className="w-full h-auto object-cover" />
+                                <Image src="/images/Thermos360Kids_colors_new.jpg" alt="Термос/термокружка с цветной крышкой и трубочкой 360 мл" width={800} height={800} className="w-full h-auto object-cover" />
                             </div>
                             <div className="w-full md:w-1/2 flex flex-col items-start text-left">
-                                <h2 className="text-3xl md:text-4xl font-bold mb-4">Термос 360 мл Kids</h2>
+                                <h2 className="text-3xl md:text-4xl font-bold mb-4">Термос/термокружка с цветной крышкой и трубочкой</h2>
                                 <p className="text-lg text-text-secondary mb-8 leading-relaxed">
-                                    Яркий термос с любимыми персонажами для школы и парка
+                                    Объем 360 мл<br />
+                                    Держит тепло до 12 часов<br />
+                                    Держит холод до 8 часов<br />
+                                    Материал: нержавеющая сталь<br />
+                                    Герметичная крышка<br />
+                                    Удобная защелка<br />
+                                    Высота 19 см<br />
+                                    Диаметр 6,8 см
                                 </p>
                                 <div className="flex flex-wrap gap-4 w-full sm:w-auto">
                                     <Button variant="primary" href="https://t.me/studio696_thermos" target="_blank" className="w-full sm:w-auto">Заказать в Telegram</Button>

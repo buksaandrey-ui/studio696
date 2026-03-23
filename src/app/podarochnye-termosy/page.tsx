@@ -60,9 +60,9 @@ export default function PodarochnyeTermosyPage() {
       image1Props={{ src: "/images/gift_packaging_new.png", alt: "Подарочная упаковка термоса Studio 696" }}
       image2Props={{ src: "/images/hero-main.png", alt: "Коллекция подарочных термосов Studio 696" }}
       extraImages={[
-        { src: "/images/Thermos600_new.png", alt: "Подарочный термос 600 мл" },
-        { src: "/images/Thermos360_new.png", alt: "Подарочный термос 360 мл" },
-        { src: "/images/Thermos360Kids_new.png", alt: "Детский подарочный термос с трубочкой" },
+        { src: "/images/Thermos600_poilnik.png", alt: "Подарочный термос 600 мл" },
+        { src: "/images/Thermos360_poilnik_new.png", alt: "Подарочный термос 360 мл" },
+        { src: "/images/Thermos360Kids_colors_new.jpg", alt: "Детский подарочный термос с трубочкой" },
       ]}
       printImages={[
         { src: "/images/Prints_logo.jpg", alt: "Примеры логотипов для подарочных термосов" },
