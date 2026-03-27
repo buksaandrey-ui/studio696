@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
-import { Card, CardContent } from "@/components/ui/Card";
+
 import { Reveal } from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
@@ -111,39 +111,21 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             <Reveal delay={100}>
-              <Card className="bg-white border-0 h-full">
-                <CardContent className="flex flex-col items-center text-center p-8 h-full">
-                  <div className="w-12 h-12 rounded-full bg-light-gray flex items-center justify-center mb-6">
-                    <span className="text-xl">🔥</span>
-                  </div>
-                  <h3 className="text-xl font-semibold mb-3">Тепло до 12 часов</h3>
-                  <p className="text-text-secondary">Двойные стенки из пищевой нержавеющей стали сохраняют температуру.</p>
-                </CardContent>
-              </Card>
+              <div className="w-full h-full rounded-3xl overflow-hidden shadow-sm bg-white flex items-center justify-center">
+                <Image src="/images/advantage_1.jpeg" alt="Тепло и Холод" width={800} height={800} className="w-full h-auto object-contain" />
+              </div>
             </Reveal>
 
             <Reveal delay={200}>
-              <Card className="bg-white border-0 h-full">
-                <CardContent className="flex flex-col items-center text-center p-8 h-full">
-                  <div className="w-12 h-12 rounded-full bg-light-gray flex items-center justify-center mb-6">
-                    <span className="text-xl">🎨</span>
-                  </div>
-                  <h3 className="text-xl font-semibold mb-3">Стойкие принты</h3>
-                  <p className="text-text-secondary">Изображение буквально &quot;впекается&quot; в покрытие. Не стирается и не выцветает.</p>
-                </CardContent>
-              </Card>
+              <div className="w-full h-full rounded-3xl overflow-hidden shadow-sm bg-white flex items-center justify-center">
+                <Image src="/images/advantage_2.jpeg" alt="Стойкие принты" width={800} height={800} className="w-full h-auto object-contain" />
+              </div>
             </Reveal>
 
             <Reveal delay={300}>
-              <Card className="bg-white border-0 h-full">
-                <CardContent className="flex flex-col items-center text-center p-8 h-full">
-                  <div className="w-12 h-12 rounded-full bg-light-gray flex items-center justify-center mb-6">
-                    <span className="text-xl">🎁</span>
-                  </div>
-                  <h3 className="text-xl font-semibold mb-3">Идеальный подарок</h3>
-                  <p className="text-text-secondary">Каждый заказ упакован в стильную подарочную упаковку, готовую к вручению.</p>
-                </CardContent>
-              </Card>
+              <div className="w-full h-full rounded-3xl overflow-hidden shadow-sm bg-white flex items-center justify-center">
+                <Image src="/images/advantage_3.jpeg" alt="Идеальный подарок" width={800} height={800} className="w-full h-auto object-contain" />
+              </div>
             </Reveal>
           </div>
         </div>
