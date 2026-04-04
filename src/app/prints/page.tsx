@@ -133,7 +133,7 @@ export default function PrintsPage() {
 
                         <Reveal delay={300}>
                             <div className="w-full h-full rounded-3xl overflow-hidden shadow-sm bg-white flex items-center justify-center">
-                                <Image src="/images/advantage_3.jpeg" alt="Идеальный подарок" width={800} height={800} className="w-full h-auto object-contain" />
+                                <Image src="/images/advantage_12_8.png" alt="Сохранение температуры: Тепло 12ч, Холод 8ч" width={800} height={800} className="w-full h-auto object-contain" />
                             </div>
                         </Reveal>
                     </div>
