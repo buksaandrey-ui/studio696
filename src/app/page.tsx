@@ -106,25 +106,25 @@ export default function Home() {
       <section className="w-full bg-light-gray py-20 px-4 md:px-6 lg:px-20">
         <div className="max-w-[1200px] mx-auto text-center">
           <Reveal>
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-12">Преимущества без компромиссов.</h2>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-12">Идеальный подарок.</h2>
           </Reveal>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             <Reveal delay={100}>
               <div className="w-full h-full rounded-3xl overflow-hidden shadow-sm bg-white flex items-center justify-center">
-                <Image src="/images/advantage_12_8.png" alt="Тепло и Холод" width={800} height={800} className="w-full h-auto object-contain" />
+                <Image src="/images/advantage_hot_cold.jpeg" alt="Тепло и Холод" width={800} height={800} className="w-full h-auto object-contain" />
               </div>
             </Reveal>
 
             <Reveal delay={200}>
               <div className="w-full h-full rounded-3xl overflow-hidden shadow-sm bg-white flex items-center justify-center">
-                <Image src="/images/advantage_2.jpeg" alt="Стойкие принты" width={800} height={800} className="w-full h-auto object-contain" />
+                <Image src="/images/advantage_print.jpeg" alt="Стойкие принты" width={800} height={800} className="w-full h-auto object-contain" />
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="w-full h-full rounded-3xl overflow-hidden shadow-sm bg-white flex items-center justify-center">
-                <Image src="/images/advantage_3.jpeg" alt="Идеальный подарок" width={800} height={800} className="w-full h-auto object-contain" />
+                <Image src="/images/advantage_gift.jpeg" alt="Готовая подарочная упаковка" width={800} height={800} className="w-full h-auto object-contain" />
               </div>
             </Reveal>
           </div>
